@@ -7,6 +7,37 @@ This is a limited module of using GPT-4o + multilingual model + Youtube autogene
 1. Install the required packages from pip using the [Requirements](./requirements.txt)  
 1. Then install the latest release of Torch for python. Instructions [Here](https://pytorch.org/)  
 1. Next, get a key for [OpenAI Quickstart](https://platform.openai.com/docs/quickstart)
-1. Finally, change the url provided in [transform_video](./transform_video.py) to your desired Rossman video.
-2. The program will output two useful files: [summary](./summary.txt) A summary of the video and [transcript](./transcript.txt) The youtube transcript of the video.
+1. Change the url provided in [transform_video](./transform_video.py) to your desired Rossman video.
+2. Run the program
+5. The program will output two useful files: [summary](./summary.txt) A summary of the video and [transcript](./transcript.txt) The youtube transcript of the video.
 
+## Example Summary from [The secret to becoming an "INFLUENCER" ](https://www.youtube.com/watch?v=ksjzI-8Rz2w)
+
+```text
+This content discusses various consumer rights issues, particularly focusing on deceptive practices by companies like Honey, which claim to offer discounts through browser plugins but redirect affiliate revenue intended for content creators back to themselves. This behavior can be seen as a violation of consumer rights through misleading practices, as users believe they are receiving the best deals, but they are not.
+
+Moreover, the narrative criticizes the so-called "influencer" culture prevalent on platforms like YouTube, where many creators promote products without genuine knowledge or experience, potentially misleading consumers. This highlights issues of false advertising and misleading endorsements, as influencers recommend products they have never used, leading to consumers purchasing faulty or unsuitable items.
+
+The discussion also touches on broader societal issues, contrasting genuine influence—shown through community efforts to create positive change—with hollow online endorsements. Individuals like "Mr. Jack" are portrayed as true influencers for making tangible improvements in their communities, offering a positive example of how to genuinely help one's community without any commercial incentive.
+
+Organizations and companies that fail to take responsibility for their defective products, like SanDisk under Western Digital, by marketing faulty goods, exemplify irresponsible corporate behavior that can severely impact consumer rights, such as providing safe and reliable products.
+
+The text also mentions the failure of faux influencers who mislead audiences with undisclosed or unauthenticated product endorsements, resulting in mistrust and potential harm to consumers. In contrast, real influence is about positively impacting one's community, underlining the importance of distinguishing authentic endorsements and contributions from exploitative marketing tactics.
+
+Overall, the discussion emphasizes the critical need for consumer awareness and regulation to prevent deceptive marketing practices and maintain the integrity of endorsements and advertisements.
+
+
+```
+
+## Copyright
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
